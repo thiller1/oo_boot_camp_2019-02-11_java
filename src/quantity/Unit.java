@@ -22,7 +22,11 @@ public class Unit {
         return new Quantity(amount, this);
     }
 
-    public double convertedAmount(double otherAmount, Unit other) {
+    double convertedAmount(double otherAmount, Unit other) {
         return otherAmount * other.baseUnitRatio / this.baseUnitRatio;
+    }
+
+    int hashCode(double amount) {
+        return Double.hashCode(amount * baseUnitRatio);
     }
 }

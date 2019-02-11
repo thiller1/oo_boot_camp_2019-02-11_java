@@ -18,12 +18,10 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test/unit/QuantityTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="414">
-              <caret line="31" column="56" selection-start-line="31" selection-start-column="56" selection-end-line="31" selection-end-column="56" />
+            <state relative-caret-position="576">
+              <caret line="42" column="74" selection-start-line="42" selection-start-column="74" selection-end-line="42" selection-end-column="74" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#1081#1082#0" expanded="true" />
-                <element signature="e#1165#1166#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -32,8 +30,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/quantity/Quantity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="397">
-              <caret line="28" column="30" selection-start-line="28" selection-start-column="30" selection-end-line="28" selection-end-column="30" />
+            <state relative-caret-position="517">
+              <caret line="33" column="23" lean-forward="true" selection-start-line="33" selection-start-column="23" selection-end-line="33" selection-end-column="23" />
               <folding>
                 <element signature="e#695#696#0" expanded="true" />
                 <element signature="e#746#747#0" expanded="true" />
@@ -49,11 +47,13 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/quantity/Unit.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="469">
-              <caret line="25" column="70" selection-start-line="25" selection-start-column="70" selection-end-line="25" selection-end-column="70" />
+            <state relative-caret-position="552">
+              <caret line="29" column="55" selection-start-line="29" selection-start-column="55" selection-end-line="29" selection-end-column="55" />
               <folding>
                 <element signature="e#747#748#0" expanded="true" />
                 <element signature="e#783#784#0" expanded="true" />
+                <element signature="e#962#963#0" expanded="true" />
+                <element signature="e#1001#1002#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -210,15 +210,6 @@
     </recent_temporary>
   </component>
   <component name="TestHistory">
-    <history-entry file="ChanceTest - 2019.02.11 at 14h 01m 24s.xml">
-      <configuration name="ChanceTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ChanceTest - 2019.02.11 at 14h 56m 20s.xml">
-      <configuration name="ChanceTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ChanceTest - 2019.02.11 at 14h 57m 19s.xml">
-      <configuration name="ChanceTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="ChanceTest - 2019.02.11 at 14h 58m 19s.xml">
       <configuration name="ChanceTest" configurationId="JUnit" />
     </history-entry>
@@ -238,6 +229,15 @@
       <configuration name="QuantityTest" configurationId="JUnit" />
     </history-entry>
     <history-entry file="QuantityTest - 2019.02.11 at 16h 04m 59s.xml">
+      <configuration name="QuantityTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="QuantityTest - 2019.02.11 at 16h 06m 36s.xml">
+      <configuration name="QuantityTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="QuantityTest - 2019.02.11 at 16h 07m 12s.xml">
+      <configuration name="QuantityTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="QuantityTest - 2019.02.11 at 16h 09m 50s.xml">
       <configuration name="QuantityTest" configurationId="JUnit" />
     </history-entry>
   </component>
@@ -338,20 +338,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/test/unit/QuantityTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="414">
-          <caret line="31" column="56" selection-start-line="31" selection-start-column="56" selection-end-line="31" selection-end-column="56" />
+        <state relative-caret-position="576">
+          <caret line="42" column="74" selection-start-line="42" selection-start-column="74" selection-end-line="42" selection-end-column="74" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1081#1082#0" expanded="true" />
-            <element signature="e#1165#1166#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/quantity/Quantity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="397">
-          <caret line="28" column="30" selection-start-line="28" selection-start-column="30" selection-end-line="28" selection-end-column="30" />
+        <state relative-caret-position="517">
+          <caret line="33" column="23" lean-forward="true" selection-start-line="33" selection-start-column="23" selection-end-line="33" selection-end-column="23" />
           <folding>
             <element signature="e#695#696#0" expanded="true" />
             <element signature="e#746#747#0" expanded="true" />
@@ -365,11 +363,13 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/quantity/Unit.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="469">
-          <caret line="25" column="70" selection-start-line="25" selection-start-column="70" selection-end-line="25" selection-end-column="70" />
+        <state relative-caret-position="552">
+          <caret line="29" column="55" selection-start-line="29" selection-start-column="55" selection-end-line="29" selection-end-column="55" />
           <folding>
             <element signature="e#747#748#0" expanded="true" />
             <element signature="e#783#784#0" expanded="true" />
+            <element signature="e#962#963#0" expanded="true" />
+            <element signature="e#1001#1002#0" expanded="true" />
           </folding>
         </state>
       </provider>

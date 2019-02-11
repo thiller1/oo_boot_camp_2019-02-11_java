@@ -31,6 +31,6 @@ public class Quantity {
 
     @Override
     public int hashCode() {
-        return Double.hashCode(amount) * 37 + unit.hashCode();
+        return unit.hashCode(amount);
     }
 }
