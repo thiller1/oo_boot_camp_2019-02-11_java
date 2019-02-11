@@ -5,20 +5,12 @@
 
 package quantity;
 
-import probability.Chance;
-
-import java.util.Arrays;
-import java.util.Collections;
-import java.util.HashSet;
-
+// Understands a particular measurement
 public class Quantity {
-    public static final Object TEASPOON = new Object();
-    public static final Object TABLESPOON = new Object();
-
     private final double amount;
-    private final Object unit;
+    private final Unit unit;
 
-    public Quantity(double amount, Object unit) {
+    public Quantity(double amount, Unit unit) {
         this.amount = amount;
         this.unit = unit;
     }
