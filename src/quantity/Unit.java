@@ -8,7 +8,7 @@ public class Unit {
     public static final Unit CUP = new Unit(8, OUNCE);
     public static final Unit PINT = new Unit(2, CUP);
     public static final Unit QUART = new Unit(2, PINT);
-    public static final Unit GALLON = new Unit(2, QUART);
+    public static final Unit GALLON = new Unit(4, QUART);
 
     private final double baseUnitRatio;
 
@@ -22,5 +22,7 @@ public class Unit {
         return new Quantity(amount, this);
     }
 
-
+    public double convertedAmount(double otherAmount, Unit other) {
+        return otherAmount * other.baseUnitRatio / this.baseUnitRatio;
+    }
 }

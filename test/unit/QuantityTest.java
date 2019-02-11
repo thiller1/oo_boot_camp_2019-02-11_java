@@ -6,7 +6,6 @@
 package unit;
 
 import org.junit.jupiter.api.Test;
-import quantity.Quantity;
 
 import java.util.Arrays;
 import java.util.Collections;
@@ -26,6 +25,9 @@ class QuantityTest {
     }
 
     @Test void equalityOfDifferentUnits() {
+        assertEquals(TABLESPOON.s(4), OUNCE.s(2));
+        assertEquals(CUP.s(1/4.0), TABLESPOON.s(4));
+        assertEquals(GALLON.s(1), TEASPOON.s(768));
         assertNotEquals(TABLESPOON.s(4), TEASPOON.s(4));
     }
 
