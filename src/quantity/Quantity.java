@@ -5,6 +5,12 @@
 
 package quantity;
 
+import probability.Chance;
+
+import java.util.Arrays;
+import java.util.Collections;
+import java.util.HashSet;
+
 public class Quantity {
     public static final Object TEASPOON = new Object();
     public static final Object TABLESPOON = new Object();
@@ -25,5 +31,10 @@ public class Quantity {
 
     private boolean equals(Quantity other) {
         return this.amount == other.amount && this.unit == other.unit;
+    }
+
+    @Override
+    public int hashCode() {
+        return Double.hashCode(amount) * 37 + unit.hashCode();
     }
 }
