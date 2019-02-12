@@ -39,6 +39,8 @@ public class Unit {
     }
 
     double convertedAmount(double otherAmount, Unit other) {
+        if (!this.isCompatible(other))
+            throw new IllegalArgumentException("Incompatible Unit types");
         return otherAmount * other.baseUnitRatio / this.baseUnitRatio;
     }
 

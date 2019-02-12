@@ -56,4 +56,9 @@ class QuantityTest {
         assertNotEquals(OUNCE.s(4), FOOT.s(2));
     }
 
+    @Test void mixedUnitArithmetic() {
+        assertThrows(IllegalArgumentException.class, () ->
+                YARD.s(3).minus(TABLESPOON.s(4)));
+    }
+
 }
