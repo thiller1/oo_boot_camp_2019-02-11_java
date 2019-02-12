@@ -42,6 +42,7 @@ class QuantityTest {
     @Test void hash() {
         assertEquals(TABLESPOON.s(4).hashCode(), TABLESPOON.s(4).hashCode());
         assertEquals(TABLESPOON.s(4).hashCode(), CUP.s(1/4.0).hashCode());
+        assertEquals(CELSIUS.es(10).hashCode(), FAHRENHEIT.s(50).hashCode());
     }
 
     @Test void arithmetic() {
