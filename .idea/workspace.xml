@@ -1,12 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="BookmarkManager">
-    <bookmark url="file://$PROJECT_DIR$/src/quantity/Quantity.java" line="17" />
+    <bookmark url="file://$PROJECT_DIR$/src/quantity/RatioQuantity.java" line="17" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3c6b7e5b-bd2a-4c7c-80ca-21a5bfd4d971" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/quantity/Quantity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/quantity/RatioQuantity.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/quantity/Unit.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/quantity/Unit.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/unit/QuantityTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/unit/QuantityTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -20,8 +22,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test/unit/QuantityTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1224">
-              <caret line="61" column="5" selection-start-line="61" selection-start-column="5" selection-end-line="61" selection-end-column="5" />
+            <state relative-caret-position="698">
+              <caret line="78" column="5" lean-forward="true" selection-start-line="78" selection-start-column="5" selection-end-line="78" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -30,13 +32,11 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/quantity/Quantity.java">
+        <entry file="file://$PROJECT_DIR$/src/quantity/RatioQuantity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="528">
-              <caret line="28" column="31" selection-start-line="28" selection-start-column="31" selection-end-line="28" selection-end-column="31" />
+            <state relative-caret-position="120">
+              <caret line="8" column="26" selection-end-line="52" />
               <folding>
-                <element signature="e#609#610#0" expanded="true" />
-                <element signature="e#697#698#0" expanded="true" />
                 <element signature="e#749#750#0" expanded="true" />
                 <element signature="e#806#807#0" expanded="true" />
               </folding>
@@ -45,13 +45,38 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/quantity/IntervalQuantity.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="602">
+              <caret line="38" column="5" selection-start-line="38" selection-start-column="5" selection-end-line="38" selection-end-column="5" />
+              <folding>
+                <element signature="e#797#798#0" expanded="true" />
+                <element signature="e#854#855#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/quantity/Unit.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="298">
-              <caret line="28" column="28" lean-forward="true" selection-start-line="28" selection-start-column="28" selection-end-line="28" selection-end-column="28" />
+            <state relative-caret-position="720">
+              <caret line="30" column="5" selection-start-line="30" selection-start-column="5" selection-end-line="30" selection-end-column="5" />
               <folding>
-                <element signature="e#1207#1208#0" expanded="true" />
-                <element signature="e#1227#1228#0" expanded="true" />
+                <element signature="e#1984#1985#0" expanded="true" />
+                <element signature="e#2057#2058#0" expanded="true" />
+                <element signature="e#2097#2098#0" expanded="true" />
+                <element signature="e#2151#2152#0" expanded="true" />
+                <element signature="e#2622#2623#0" expanded="true" />
+                <element signature="e#2676#2677#0" expanded="true" />
+                <element signature="e#2722#2723#0" expanded="true" />
+                <element signature="e#2754#2755#0" expanded="true" />
+                <element signature="e#2766#2767#0" expanded="true" />
+                <element signature="e#2832#2833#0" expanded="true" />
+                <element signature="e#2892#2893#0" expanded="true" />
+                <element signature="e#2946#2947#0" expanded="true" />
+                <element signature="e#2992#2993#0" expanded="true" />
+                <element signature="e#3024#3025#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -86,8 +111,10 @@
         <option value="$PROJECT_DIR$/test/unit/ChanceTest.java" />
         <option value="$PROJECT_DIR$/src/probability/Chance.java" />
         <option value="$PROJECT_DIR$/src/quantity/Quantity.java" />
-        <option value="$PROJECT_DIR$/test/unit/QuantityTest.java" />
+        <option value="$PROJECT_DIR$/src/quantity/RatioQuantity.java" />
         <option value="$PROJECT_DIR$/src/quantity/Unit.java" />
+        <option value="$PROJECT_DIR$/test/unit/QuantityTest.java" />
+        <option value="$PROJECT_DIR$/src/quantity/IntervalQuantity.java" />
       </list>
     </option>
   </component>
@@ -209,18 +236,6 @@
     </recent_temporary>
   </component>
   <component name="TestHistory">
-    <history-entry file="QuantityTest - 2019.02.11 at 16h 06m 36s.xml">
-      <configuration name="QuantityTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="QuantityTest - 2019.02.11 at 16h 07m 12s.xml">
-      <configuration name="QuantityTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="QuantityTest - 2019.02.11 at 16h 09m 50s.xml">
-      <configuration name="QuantityTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="QuantityTest - 2019.02.11 at 16h 10m 53s.xml">
-      <configuration name="QuantityTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="QuantityTest - 2019.02.12 at 11h 35m 28s.xml">
       <configuration name="QuantityTest" configurationId="JUnit" />
     </history-entry>
@@ -239,19 +254,31 @@
     <history-entry file="All_in_oo_boot_camp_2019-02-11_java - 2019.02.12 at 11h 50m 50s.xml">
       <configuration name="All in oo_boot_camp_2019-02-11_java" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="All_in_oo_boot_camp_2019-02-11_java - 2019.02.12 at 14h 07m 15s.xml">
+      <configuration name="All in oo_boot_camp_2019-02-11_java" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="All_in_oo_boot_camp_2019-02-11_java - 2019.02.12 at 14h 08m 22s.xml">
+      <configuration name="All in oo_boot_camp_2019-02-11_java" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="All_in_oo_boot_camp_2019-02-11_java - 2019.02.12 at 14h 09m 47s.xml">
+      <configuration name="All in oo_boot_camp_2019-02-11_java" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="All_in_oo_boot_camp_2019-02-11_java - 2019.02.12 at 14h 10m 11s.xml">
+      <configuration name="All in oo_boot_camp_2019-02-11_java" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="224" y="7" width="1372" height="989" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.25951293" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15144597" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="UI Designer" order="3" />
       <window_info id="Favorites" order="4" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.20256111" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32945284" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.20256111" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -357,23 +384,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/unit/QuantityTest.java">
+    <entry file="file://$PROJECT_DIR$/src/quantity/RatioQuantity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1224">
-          <caret line="61" column="5" selection-start-line="61" selection-start-column="5" selection-end-line="61" selection-end-column="5" />
+        <state relative-caret-position="120">
+          <caret line="8" column="26" selection-end-line="52" />
           <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/quantity/Quantity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="528">
-          <caret line="28" column="31" selection-start-line="28" selection-start-column="31" selection-end-line="28" selection-end-column="31" />
-          <folding>
-            <element signature="e#609#610#0" expanded="true" />
-            <element signature="e#697#698#0" expanded="true" />
             <element signature="e#749#750#0" expanded="true" />
             <element signature="e#806#807#0" expanded="true" />
           </folding>
@@ -382,11 +397,44 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/quantity/Unit.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="298">
-          <caret line="28" column="28" lean-forward="true" selection-start-line="28" selection-start-column="28" selection-end-line="28" selection-end-column="28" />
+        <state relative-caret-position="720">
+          <caret line="30" column="5" selection-start-line="30" selection-start-column="5" selection-end-line="30" selection-end-column="5" />
           <folding>
-            <element signature="e#1207#1208#0" expanded="true" />
-            <element signature="e#1227#1228#0" expanded="true" />
+            <element signature="e#1984#1985#0" expanded="true" />
+            <element signature="e#2057#2058#0" expanded="true" />
+            <element signature="e#2097#2098#0" expanded="true" />
+            <element signature="e#2151#2152#0" expanded="true" />
+            <element signature="e#2622#2623#0" expanded="true" />
+            <element signature="e#2676#2677#0" expanded="true" />
+            <element signature="e#2722#2723#0" expanded="true" />
+            <element signature="e#2754#2755#0" expanded="true" />
+            <element signature="e#2766#2767#0" expanded="true" />
+            <element signature="e#2832#2833#0" expanded="true" />
+            <element signature="e#2892#2893#0" expanded="true" />
+            <element signature="e#2946#2947#0" expanded="true" />
+            <element signature="e#2992#2993#0" expanded="true" />
+            <element signature="e#3024#3025#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/unit/QuantityTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="698">
+          <caret line="78" column="5" lean-forward="true" selection-start-line="78" selection-start-column="5" selection-end-line="78" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/quantity/IntervalQuantity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="602">
+          <caret line="38" column="5" selection-start-line="38" selection-start-column="5" selection-end-line="38" selection-end-column="5" />
+          <folding>
+            <element signature="e#797#798#0" expanded="true" />
+            <element signature="e#854#855#0" expanded="true" />
           </folding>
         </state>
       </provider>
