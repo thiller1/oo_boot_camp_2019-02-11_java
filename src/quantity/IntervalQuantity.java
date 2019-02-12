@@ -7,8 +7,8 @@ package quantity;
 
 // Understands a particular measurement
 public class IntervalQuantity {
-    private final double amount;
-    private final Unit unit;
+    final double amount;
+    final Unit unit;
 
     IntervalQuantity(double amount, Unit unit) {
         this.amount = amount;
@@ -18,7 +18,7 @@ public class IntervalQuantity {
     @Override
     public boolean equals(Object other) {
         return this == other ||
-                other != null && other.getClass() == IntervalQuantity.class && this.equals((IntervalQuantity) other);
+                other != null && other.getClass() == this.getClass() && this.equals((IntervalQuantity) other);
     }
 
     private boolean equals(IntervalQuantity other) {
@@ -29,7 +29,7 @@ public class IntervalQuantity {
         return this.unit.isCompatible(other.unit);
     }
 
-    private double convertedAmount(IntervalQuantity other) {
+    double convertedAmount(IntervalQuantity other) {
         return this.unit.convertedAmount(other.amount, other.unit);
     }
 
