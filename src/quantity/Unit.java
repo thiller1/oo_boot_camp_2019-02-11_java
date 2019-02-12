@@ -17,11 +17,16 @@ public class Unit {
     public static final Unit FURLONG = new Unit(10, CHAIN);
     public static final Unit MILE = new Unit(8, FURLONG);
 
+    private final Unit baseUnit;
     private final double baseUnitRatio;
 
-    private Unit() { baseUnitRatio = 1.0; }
+    private Unit() {
+        baseUnit = this;
+        baseUnitRatio = 1.0;
+    }
 
     private Unit(double relativeRatio, Unit relativeUnit) {
+        baseUnit = relativeUnit.baseUnit;
         baseUnitRatio = relativeRatio * relativeUnit.baseUnitRatio;
     }
 
@@ -39,5 +44,9 @@ public class Unit {
 
     int hashCode(double amount) {
         return Double.hashCode(amount * baseUnitRatio);
+    }
+
+    boolean isCompatible(Unit other) {
+        return this.baseUnit == other.baseUnit;
     }
 }
