@@ -4,10 +4,7 @@
     <bookmark url="file://$PROJECT_DIR$/src/quantity/RatioQuantity.java" line="14" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3c6b7e5b-bd2a-4c7c-80ca-21a5bfd4d971" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/unit/RectangleTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/unit/RectangleTest.java" afterDir="false" />
-    </list>
+    <list default="true" id="3c6b7e5b-bd2a-4c7c-80ca-21a5bfd4d971" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -17,13 +14,50 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test/unit/RectangleTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="576">
-              <caret line="27" column="80" lean-forward="true" selection-start-line="27" selection-start-column="80" selection-end-line="27" selection-end-column="80" />
+            <state relative-caret-position="384">
+              <caret line="23" column="23" selection-start-line="23" selection-start-column="23" selection-end-line="23" selection-end-column="23" />
               <folding>
                 <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test/unit/OrderTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="370">
+              <caret line="18" column="38" selection-start-line="18" selection-start-column="38" selection-end-line="18" selection-end-column="38" />
+              <folding>
+                <element signature="e#0#1091#0" expanded="true" />
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/order/Orderable.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="360">
+              <caret line="18" column="24" selection-start-line="18" selection-start-column="24" selection-end-line="18" selection-end-column="24" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/rectangle/Rectangle.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="48">
+              <caret line="5" selection-end-line="5" />
+              <folding>
+                <element signature="e#589#590#0" expanded="true" />
+                <element signature="e#626#627#0" expanded="true" />
+                <element signature="e#566#567#0" expanded="true" />
+                <element signature="e#603#604#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -35,6 +69,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -53,7 +88,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/rectangle/Rectangle.java" />
         <option value="$PROJECT_DIR$/test/unit/ChanceTest.java" />
         <option value="$PROJECT_DIR$/src/probability/Chance.java" />
         <option value="$PROJECT_DIR$/src/quantity/Quantity.java" />
@@ -61,7 +95,10 @@
         <option value="$PROJECT_DIR$/test/unit/QuantityTest.java" />
         <option value="$PROJECT_DIR$/src/quantity/RatioQuantity.java" />
         <option value="$PROJECT_DIR$/src/quantity/IntervalQuantity.java" />
+        <option value="$PROJECT_DIR$/src/rectangle/Rectangle.java" />
         <option value="$PROJECT_DIR$/test/unit/RectangleTest.java" />
+        <option value="$PROJECT_DIR$/test/unit/OrderTest.java" />
+        <option value="$PROJECT_DIR$/src/order/Orderable.java" />
       </list>
     </option>
   </component>
@@ -97,6 +134,12 @@
               <item name="oo_boot_camp_2019-02-11_java" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="quantity" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="oo_boot_camp_2019-02-11_java" type="b2602c69:ProjectViewProjectNode" />
+              <item name="oo_boot_camp_2019-02-11_java" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="rectangle" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="oo_boot_camp_2019-02-11_java" type="b2602c69:ProjectViewProjectNode" />
@@ -183,12 +226,6 @@
     </recent_temporary>
   </component>
   <component name="TestHistory">
-    <history-entry file="QuantityTest - 2019.02.12 at 11h 41m 36s.xml">
-      <configuration name="QuantityTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="All_in_oo_boot_camp_2019-02-11_java - 2019.02.12 at 11h 50m 50s.xml">
-      <configuration name="All in oo_boot_camp_2019-02-11_java" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="All_in_oo_boot_camp_2019-02-11_java - 2019.02.12 at 14h 07m 15s.xml">
       <configuration name="All in oo_boot_camp_2019-02-11_java" configurationId="JUnit" />
     </history-entry>
@@ -213,19 +250,25 @@
     <history-entry file="All_in_oo_boot_camp_2019-02-11_java - 2019.02.12 at 15h 40m 11s.xml">
       <configuration name="All in oo_boot_camp_2019-02-11_java" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="All_in_oo_boot_camp_2019-02-11_java - 2019.02.13 at 11h 05m 23s.xml">
+      <configuration name="All in oo_boot_camp_2019-02-11_java" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="All_in_oo_boot_camp_2019-02-11_java - 2019.02.13 at 11h 05m 41s.xml">
+      <configuration name="All in oo_boot_camp_2019-02-11_java" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="224" y="7" width="1372" height="989" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15372907" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15372907" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="UI Designer" order="3" />
       <window_info id="Favorites" order="4" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32945284" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.20256111" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.20256111" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -278,18 +321,6 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/oo_boot_camp_2019-02-11_java.iml">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/rectangle/Rectangle.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-7">
-          <caret line="19" column="26" selection-start-line="19" selection-start-column="26" selection-end-line="19" selection-end-column="26" />
-          <folding>
-            <element signature="e#471#472#0" expanded="true" />
-            <element signature="e#505#506#0" expanded="true" />
-            <element signature="e#533#534#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/probability/Chance.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -350,11 +381,42 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/test/unit/RectangleTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="576">
-          <caret line="27" column="80" lean-forward="true" selection-start-line="27" selection-start-column="80" selection-end-line="27" selection-end-column="80" />
+        <state relative-caret-position="384">
+          <caret line="23" column="23" selection-start-line="23" selection-start-column="23" selection-end-line="23" selection-end-column="23" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/rectangle/Rectangle.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="48">
+          <caret line="5" selection-end-line="5" />
+          <folding>
+            <element signature="e#589#590#0" expanded="true" />
+            <element signature="e#626#627#0" expanded="true" />
+            <element signature="e#566#567#0" expanded="true" />
+            <element signature="e#603#604#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/unit/OrderTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="370">
+          <caret line="18" column="38" selection-start-line="18" selection-start-column="38" selection-end-line="18" selection-end-column="38" />
+          <folding>
+            <element signature="e#0#1091#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/order/Orderable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="18" column="24" selection-start-line="18" selection-start-column="24" selection-end-line="18" selection-end-column="24" />
         </state>
       </provider>
     </entry>
