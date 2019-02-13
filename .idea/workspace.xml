@@ -4,7 +4,11 @@
     <bookmark url="file://$PROJECT_DIR$/src/quantity/RatioQuantity.java" line="14" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3c6b7e5b-bd2a-4c7c-80ca-21a5bfd4d971" name="Default Changelist" comment="" />
+    <list default="true" id="3c6b7e5b-bd2a-4c7c-80ca-21a5bfd4d971" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/graph/Node.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/graph/Node.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/unit/GraphTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/unit/GraphTest.java" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -17,10 +21,9 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test/unit/GraphTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="31" column="25" selection-start-line="31" selection-start-column="25" selection-end-line="31" selection-end-column="25" />
+            <state relative-caret-position="568">
+              <caret line="42" column="29" lean-forward="true" selection-start-line="42" selection-start-column="29" selection-end-line="42" selection-end-column="29" />
               <folding>
-                <element signature="e#0#3460#0" expanded="true" />
                 <element signature="imports" expanded="true" />
               </folding>
             </state>
@@ -30,15 +33,10 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/graph/Node.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="538">
-              <caret line="28" column="21" selection-start-line="28" selection-start-column="21" selection-end-line="28" selection-end-column="21" />
+            <state relative-caret-position="760">
+              <caret line="49" column="27" selection-start-line="49" selection-start-column="27" selection-end-line="49" selection-end-column="27" />
               <folding>
-                <element signature="e#0#157#0" expanded="true" />
                 <element signature="imports" expanded="true" />
-                <element signature="e#454#455#0" expanded="true" />
-                <element signature="e#486#487#0" expanded="true" />
-                <element signature="e#686#687#0" expanded="true" />
-                <element signature="e#726#727#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -87,8 +85,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="448" />
-    <option name="y" value="14" />
+    <option name="x" value="550" />
+    <option name="y" value="92" />
     <option name="width" value="2744" />
     <option name="height" value="1978" />
   </component>
@@ -216,12 +214,6 @@
     </recent_temporary>
   </component>
   <component name="TestHistory">
-    <history-entry file="All_in_oo_boot_camp_2019-02-11_java - 2019.02.12 at 15h 39m 39s.xml">
-      <configuration name="All in oo_boot_camp_2019-02-11_java" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="All_in_oo_boot_camp_2019-02-11_java - 2019.02.12 at 15h 40m 11s.xml">
-      <configuration name="All in oo_boot_camp_2019-02-11_java" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="All_in_oo_boot_camp_2019-02-11_java - 2019.02.13 at 11h 05m 23s.xml">
       <configuration name="All in oo_boot_camp_2019-02-11_java" configurationId="JUnit" />
     </history-entry>
@@ -246,19 +238,25 @@
     <history-entry file="All_in_oo_boot_camp_2019-02-11_java - 2019.02.13 at 12h 21m 27s.xml">
       <configuration name="All in oo_boot_camp_2019-02-11_java" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="All_in_oo_boot_camp_2019-02-11_java - 2019.02.13 at 13h 37m 07s.xml">
+      <configuration name="All in oo_boot_camp_2019-02-11_java" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="All_in_oo_boot_camp_2019-02-11_java - 2019.02.13 at 13h 38m 34s.xml">
+      <configuration name="All in oo_boot_camp_2019-02-11_java" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="224" y="7" width="1372" height="989" extended-state="0" />
+    <frame x="275" y="46" width="1372" height="989" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15372907" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15601218" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="UI Designer" order="3" />
       <window_info id="Favorites" order="4" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32945284" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.20256111" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.20256111" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -415,10 +413,9 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/test/unit/GraphTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="31" column="25" selection-start-line="31" selection-start-column="25" selection-end-line="31" selection-end-column="25" />
+        <state relative-caret-position="568">
+          <caret line="42" column="29" lean-forward="true" selection-start-line="42" selection-start-column="29" selection-end-line="42" selection-end-column="29" />
           <folding>
-            <element signature="e#0#3460#0" expanded="true" />
             <element signature="imports" expanded="true" />
           </folding>
         </state>
@@ -426,15 +423,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/graph/Node.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="538">
-          <caret line="28" column="21" selection-start-line="28" selection-start-column="21" selection-end-line="28" selection-end-column="21" />
+        <state relative-caret-position="760">
+          <caret line="49" column="27" selection-start-line="49" selection-start-column="27" selection-end-line="49" selection-end-column="27" />
           <folding>
-            <element signature="e#0#157#0" expanded="true" />
             <element signature="imports" expanded="true" />
-            <element signature="e#454#455#0" expanded="true" />
-            <element signature="e#486#487#0" expanded="true" />
-            <element signature="e#686#687#0" expanded="true" />
-            <element signature="e#726#727#0" expanded="true" />
           </folding>
         </state>
       </provider>

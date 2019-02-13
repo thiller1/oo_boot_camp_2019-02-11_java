@@ -38,4 +38,15 @@ class GraphTest {
         assertFalse(A.canReach(B));
         assertFalse(B.canReach(G));
     }
+
+    @Test void hopCount() {
+        assertEquals(0, B.hopCount(B));
+        assertEquals(1, B.hopCount(A));
+        assertEquals(1, B.hopCount(F));
+        assertEquals(2, B.hopCount(D));
+        assertEquals(4, C.hopCount(F));
+        assertThrows(IllegalArgumentException.class, () -> G.hopCount(B));
+        assertThrows(IllegalArgumentException.class, () -> A.hopCount(B));
+        assertThrows(IllegalArgumentException.class, () -> B.hopCount(G));
+    }
 }
