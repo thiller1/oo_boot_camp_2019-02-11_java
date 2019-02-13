@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3c6b7e5b-bd2a-4c7c-80ca-21a5bfd4d971" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/order/Orderable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/order/Orderable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/unit/OrderTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/unit/OrderTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -28,11 +28,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/test/unit/OrderTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="370">
-              <caret line="18" column="35" selection-start-line="18" selection-start-column="35" selection-end-line="18" selection-end-column="35" />
+            <state relative-caret-position="442">
+              <caret line="21" column="35" selection-start-line="21" selection-start-column="35" selection-end-line="21" selection-end-column="35" />
               <folding>
                 <element signature="e#0#1091#0" expanded="true" />
                 <element signature="imports" expanded="true" />
@@ -41,11 +41,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/order/Orderable.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="394">
-              <caret line="21" column="26" lean-forward="true" selection-start-line="21" selection-start-column="26" selection-end-line="21" selection-end-column="26" />
+            <state relative-caret-position="312">
+              <caret line="16" column="61" selection-start-line="16" selection-start-column="61" selection-end-line="16" selection-end-column="61" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -103,9 +103,9 @@
         <option value="$PROJECT_DIR$/src/quantity/RatioQuantity.java" />
         <option value="$PROJECT_DIR$/src/quantity/IntervalQuantity.java" />
         <option value="$PROJECT_DIR$/test/unit/RectangleTest.java" />
-        <option value="$PROJECT_DIR$/test/unit/OrderTest.java" />
         <option value="$PROJECT_DIR$/src/rectangle/Rectangle.java" />
         <option value="$PROJECT_DIR$/src/order/Orderable.java" />
+        <option value="$PROJECT_DIR$/test/unit/OrderTest.java" />
       </list>
     </option>
   </component>
@@ -233,12 +233,6 @@
     </recent_temporary>
   </component>
   <component name="TestHistory">
-    <history-entry file="All_in_oo_boot_camp_2019-02-11_java - 2019.02.12 at 14h 08m 22s.xml">
-      <configuration name="All in oo_boot_camp_2019-02-11_java" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="All_in_oo_boot_camp_2019-02-11_java - 2019.02.12 at 14h 09m 47s.xml">
-      <configuration name="All in oo_boot_camp_2019-02-11_java" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="All_in_oo_boot_camp_2019-02-11_java - 2019.02.12 at 14h 10m 11s.xml">
       <configuration name="All in oo_boot_camp_2019-02-11_java" configurationId="JUnit" />
     </history-entry>
@@ -261,6 +255,12 @@
       <configuration name="All in oo_boot_camp_2019-02-11_java" configurationId="JUnit" />
     </history-entry>
     <history-entry file="All_in_oo_boot_camp_2019-02-11_java - 2019.02.13 at 11h 52m 31s.xml">
+      <configuration name="All in oo_boot_camp_2019-02-11_java" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="All_in_oo_boot_camp_2019-02-11_java - 2019.02.13 at 12h 00m 14s.xml">
+      <configuration name="All in oo_boot_camp_2019-02-11_java" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="All_in_oo_boot_camp_2019-02-11_java - 2019.02.13 at 12h 00m 36s.xml">
       <configuration name="All in oo_boot_camp_2019-02-11_java" configurationId="JUnit" />
     </history-entry>
   </component>
@@ -411,22 +411,22 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/unit/OrderTest.java">
+    <entry file="file://$PROJECT_DIR$/src/order/Orderable.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="370">
-          <caret line="18" column="35" selection-start-line="18" selection-start-column="35" selection-end-line="18" selection-end-column="35" />
+        <state relative-caret-position="312">
+          <caret line="16" column="61" selection-start-line="16" selection-start-column="61" selection-end-line="16" selection-end-column="61" />
           <folding>
-            <element signature="e#0#1091#0" expanded="true" />
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/order/Orderable.java">
+    <entry file="file://$PROJECT_DIR$/test/unit/OrderTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="394">
-          <caret line="21" column="26" lean-forward="true" selection-start-line="21" selection-start-column="26" selection-end-line="21" selection-end-column="26" />
+        <state relative-caret-position="442">
+          <caret line="21" column="35" selection-start-line="21" selection-start-column="35" selection-end-line="21" selection-end-column="35" />
           <folding>
+            <element signature="e#0#1091#0" expanded="true" />
             <element signature="imports" expanded="true" />
           </folding>
         </state>

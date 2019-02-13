@@ -5,8 +5,10 @@
 
 package probability;
 
+import order.Orderable;
+
 // Understands the likelihood of something occurring
-public class Chance {
+public class Chance implements Orderable<Chance> {
     private static final double CERTAIN_FRACTION = 1.0;
     private static final double DELTA = 0.000000001;
     private final double fraction;
@@ -43,5 +45,10 @@ public class Chance {
     // Implemented with DeMorgan's Law https://en.wikipedia.org/wiki/De_Morgan%27s_laws
     public Chance or(Chance other) {
         return this.not().and(other.not()).not();
+    }
+
+    @Override
+    public boolean isBetterThan(Chance other) {
+        return this.fraction > other.fraction;
     }
 }
