@@ -8,6 +8,7 @@ package unit;
 import order.Orderable;
 import org.junit.jupiter.api.Test;
 import probability.Chance;
+import quantity.Unit;
 import rectangle.Rectangle;
 
 import static org.junit.jupiter.api.Assertions.*;
@@ -26,6 +27,15 @@ class OrderTest {
     @Test void mostLikelyChance() {
         assertEquals(new Chance(0.75), Orderable.best(
                 new Chance(0.5), new Chance(0.75), new Chance(0.25)
+        ));
+    }
+
+    @Test void testMaxQuantity() {
+        assertEquals(QUART.s(2), Orderable.best(
+                GALLON.s(0.2), OUNCE.s(24), GALLON.s(0.5), CUP.s(7)
+        ));
+        assertEquals(CELSIUS.s(100), Orderable.best(
+                FAHRENHEIT.s(212), CELSIUS.s(0), FAHRENHEIT.s(50), CELSIUS.s(-40)
         ));
     }
 }

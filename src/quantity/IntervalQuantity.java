@@ -5,8 +5,10 @@
 
 package quantity;
 
+import order.Orderable;
+
 // Understands a particular measurement
-public class IntervalQuantity {
+public class IntervalQuantity implements Orderable<IntervalQuantity> {
     final double amount;
     final Unit unit;
 
@@ -36,5 +38,10 @@ public class IntervalQuantity {
     @Override
     public int hashCode() {
         return unit.hashCode(amount);
+    }
+
+    @Override
+    public boolean isBetterThan(IntervalQuantity other) {
+        return this.amount > convertedAmount(other);
     }
 }
