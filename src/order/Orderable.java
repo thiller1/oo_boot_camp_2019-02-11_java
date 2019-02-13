@@ -7,15 +7,16 @@ package order;
 
 import rectangle.Rectangle;
 
+import java.util.Arrays;
+
+// Understands sequencing of like elements
 public interface Orderable<T extends Orderable> {
 
     boolean isBetterThan(T other);
 
     static <S extends Orderable<S>> S best(S... candidates) {
-        S champion = null;
-        for (S challenger: candidates)
-            if (champion == null || challenger.isBetterThan(champion))
-                champion = challenger;
-        return champion;
+        return Arrays.stream(candidates)
+                .reduce((left, right) -> left.isBetterThan(right) ? left : right)
+                .orElse(null);
     }
 }
