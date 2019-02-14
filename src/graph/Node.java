@@ -36,16 +36,16 @@ public class Node {
                 .orElse(UNREACHABLE);
     }
     public int cost(Node destination) {
-        var result = this.cost(destination, noVisitedNodes());
+        var result = this.cost(destination, noVisitedNodes(), Link.LEAST_COST);
         if (result == UNREACHABLE) throw new IllegalArgumentException("Unreachable destination");
         return (int)result;
     }
 
-    double cost(Node destination, List<Node> visitedNodes) {
+    double cost(Node destination, List<Node> visitedNodes, Link.CostStrategy strategy) {
         if (this == destination) return 0;
         if (visitedNodes.contains(this)) return UNREACHABLE;
         return links.stream()
-                .mapToDouble(link -> link.cost(destination, copyWithThis(visitedNodes)))
+                .mapToDouble(link -> link.cost(destination, copyWithThis(visitedNodes), strategy))
                 .min()
                 .orElse(UNREACHABLE);
     }
