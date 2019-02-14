@@ -35,10 +35,9 @@ public class Node {
     }
 
     private int neighborHopCount(Node destination, List<Node> visitedNodes) {
-        visitedNodes.add(this);
         var champion = UNREACHABLE;
         for (Node n: neighbors) {
-            var challenger = n.hopCount(destination, visitedNodes);
+            var challenger = n.hopCount(destination, copyWithThis(visitedNodes));
             if (challenger == UNREACHABLE) continue;
             if (champion == UNREACHABLE || challenger + 1 < champion)
                 champion = challenger + 1;
@@ -48,5 +47,11 @@ public class Node {
 
     private List<Node> noVisitedNodes() {
         return new ArrayList<>();
+    }
+
+    private List<Node> copyWithThis(List<Node> originals) {
+        var results = new ArrayList<>(originals);
+        results.add(this);
+        return results;
     }
 }
