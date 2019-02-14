@@ -5,7 +5,11 @@
 
 package unit;
 import graph.Node;
+import graph.Path;
 import org.junit.jupiter.api.Test;
+
+import java.util.Arrays;
+import java.util.Collections;
 
 import static org.junit.jupiter.api.Assertions.*;
 
@@ -63,5 +67,41 @@ class GraphTest {
         assertThrows(IllegalArgumentException.class, () -> G.cost(A));
         assertThrows(IllegalArgumentException.class, () -> F.cost(B));
         assertThrows(IllegalArgumentException.class, () -> A.cost(B));
+    }
+
+
+    @Test void path() {
+//        assertEquals(Path.NOT_REACHED, B.path(B));
+        Path pathBtoA = B.path(A);
+        assertTrue(pathBtoA.hasNode(A));
+        assertTrue(pathBtoA.hasNode(B));
+        assertEquals(1, pathBtoA.hopCount());
+        assertEquals(5, pathBtoA.cost());
+
+        Path pathBtoF = B.path(F);
+        assertTrue(pathBtoF.hasNode(B));
+        assertTrue(pathBtoF.hasNode(F));
+        assertEquals(1, pathBtoF.hopCount());
+        assertEquals(4, pathBtoF.cost());
+
+
+        Path pathBtoD = B.path(D);
+        assertTrue(pathBtoD.hasNode(B));
+        assertTrue(pathBtoD.hasNode(C));
+        assertTrue(pathBtoD.hasNode(D));
+        assertEquals(2, pathBtoD.hopCount());
+        assertEquals(7, pathBtoD.cost());
+
+        Path pathCtoF = C.path(F);
+        assertTrue(pathCtoF.hasNode(C));
+        assertTrue(pathCtoF.hasNode(E));
+        assertTrue(pathCtoF.hasNode(B));
+        assertTrue(pathCtoF.hasNode(F));
+        assertEquals(4, pathCtoF.hopCount());
+        assertEquals(10, pathCtoF.cost());
+
+        assertThrows(IllegalArgumentException.class, () -> G.path(A));
+        assertThrows(IllegalArgumentException.class, () -> F.path(B));
+        assertThrows(IllegalArgumentException.class, () -> A.path(B));
     }
 }
