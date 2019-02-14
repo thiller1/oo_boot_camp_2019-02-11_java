@@ -13,9 +13,8 @@ public class Node {
     private static final double UNREACHABLE = Double.POSITIVE_INFINITY;
     private final List<Link> links = new ArrayList<>();
 
-    public Node to(final Node neighbor) {
-        links.add(new Link(neighbor));
-        return neighbor;
+    public LinkBuilder cost(double amount) {
+        return new LinkBuilder(amount, links);
     }
 
     public boolean canReach(Node destination) {
@@ -45,5 +44,20 @@ public class Node {
         var results = new ArrayList<>(originals);
         results.add(this);
         return results;
+    }
+
+    public static class LinkBuilder {
+        private final double cost;
+        private final List<Link> links;
+
+        private LinkBuilder(double cost, List<Link> links) {
+            this.cost = cost;
+            this.links = links;
+        }
+
+        public Node to(Node neighbor) {
+            links.add(new Link(cost, neighbor));
+            return neighbor;
+        }
     }
 }
