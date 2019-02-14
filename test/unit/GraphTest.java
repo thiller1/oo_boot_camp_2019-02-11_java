@@ -22,10 +22,11 @@ class GraphTest {
         F = new Node();
         G = new Node();
 
-        B.to(A);
-        B.to(C).to(D).to(E).to(B).to(F);
-        C.to(D);
-        C.to(E);
+
+        B.cost(5).to(A);
+        B.cost(6).to(C).cost(7).to(D).cost(2).to(E).cost(3).to(B).cost(4).to(F);
+        C.cost(1).to(D);
+        C.cost(8).to(E);
     }
 
     @Test void canReach() {
@@ -48,5 +49,19 @@ class GraphTest {
         assertThrows(IllegalArgumentException.class, () -> G.hopCount(B));
         assertThrows(IllegalArgumentException.class, () -> A.hopCount(B));
         assertThrows(IllegalArgumentException.class, () -> B.hopCount(G));
+    }
+
+    @Test void cost() {
+        assertEquals(0, B.cost(B));
+        assertEquals(5, B.cost(A));
+        assertEquals(4, B.cost(F));
+        assertEquals(7, B.cost(D));
+        assertEquals(10, C.cost(F));
+        assertEquals(11, C.cost(A));
+        assertEquals(1, C.cost(D));
+
+        assertThrows(IllegalArgumentException.class, () -> G.cost(A));
+        assertThrows(IllegalArgumentException.class, () -> F.cost(B));
+        assertThrows(IllegalArgumentException.class, () -> A.cost(B));
     }
 }

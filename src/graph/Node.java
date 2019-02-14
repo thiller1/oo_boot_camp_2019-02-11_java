@@ -8,42 +8,66 @@ package graph;
 import java.util.ArrayList;
 import java.util.List;
 
-// Understands its neighbors
+// Understands its edges
 public class Node {
     private static final double UNREACHABLE = Double.POSITIVE_INFINITY;
-    private final List<Node> neighbors = new ArrayList<>();
-
-    public Node to(final Node neighbor) {
-        neighbors.add(neighbor);
-        return neighbor;
-    }
+    private final List<Edge> edges = new ArrayList<>();
 
     public boolean canReach(Node destination) {
-        return hopCount(destination, noVisitedNodes()) != UNREACHABLE;
+        return cost(destination, noVisitedNodes(), Edge.FEWEST_HOPS) != UNREACHABLE;
     }
 
     public int hopCount(Node destination) {
-        var result = this.hopCount(destination, noVisitedNodes());
-        if (result == UNREACHABLE) throw new IllegalArgumentException("Unreachable destination");
-        return (int)result;
+        return cost(destination, Edge.FEWEST_HOPS);
     }
 
-    private double hopCount(Node destination, List<Node> visitedNodes) {
+    public int cost(Node destination) {
+        return cost(destination, Edge.LEAST_COST);
+    }
+
+    private int cost(Node destination, Edge.CostStrategy fewestHops) {
+        double result = this.cost(destination, noVisitedNodes(), fewestHops);
+        if (result == UNREACHABLE) throw new IllegalArgumentException("Unreachable target");
+        return (int) result;
+    }
+
+    double cost(Node destination, List<Node> visitedNodes, Edge.CostStrategy costStrategy) {
         if (this == destination) return 0;
         if (visitedNodes.contains(this)) return UNREACHABLE;
-        return neighbors.stream()
-                .mapToDouble(n -> n.hopCount(destination, copyWithThis(visitedNodes)) + 1)
+        return edges.stream()
+                .mapToDouble(edge -> edge.cost(destination, copyWithThis(visitedNodes), costStrategy))
                 .min()
                 .orElse(UNREACHABLE);
     }
-    
+
     private List<Node> noVisitedNodes() {
         return new ArrayList<>();
     }
 
     private List<Node> copyWithThis(List<Node> originals) {
-        var results = new ArrayList<>(originals);
+        List<Node> results = new ArrayList<>(originals);
         results.add(this);
         return results;
+    }
+
+    public EdgeBuilder cost(int cost) {
+        return new EdgeBuilder(cost, this.edges);
+    }
+
+    public static final class EdgeBuilder {
+
+        private final int cost;
+        private final List<Edge> edges;
+
+        private EdgeBuilder(int cost, List<Edge> edges) {
+            this.cost = cost;
+            this.edges = edges;
+        }
+
+        public Node to(Node destination) {
+            edges.add(new Edge(destination, cost));
+            return destination;
+        }
+
     }
 }
