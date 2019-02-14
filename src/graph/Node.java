@@ -11,10 +11,10 @@ import java.util.List;
 // Understands its neighbors
 public class Node {
     private static final double UNREACHABLE = Double.POSITIVE_INFINITY;
-    private final List<Node> neighbors = new ArrayList<>();
+    private final List<Link> links = new ArrayList<>();
 
     public Node to(final Node neighbor) {
-        neighbors.add(neighbor);
+        links.add(new Link(neighbor));
         return neighbor;
     }
 
@@ -28,15 +28,15 @@ public class Node {
         return (int)result;
     }
 
-    private double hopCount(Node destination, List<Node> visitedNodes) {
+    double hopCount(Node destination, List<Node> visitedNodes) {
         if (this == destination) return 0;
         if (visitedNodes.contains(this)) return UNREACHABLE;
-        return neighbors.stream()
-                .mapToDouble(n -> n.hopCount(destination, copyWithThis(visitedNodes)) + 1)
+        return links.stream()
+                .mapToDouble(link -> link.hopCount(destination, copyWithThis(visitedNodes)))
                 .min()
                 .orElse(UNREACHABLE);
     }
-    
+
     private List<Node> noVisitedNodes() {
         return new ArrayList<>();
     }
